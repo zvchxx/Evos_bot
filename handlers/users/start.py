@@ -74,7 +74,7 @@ async def get_phone_number_handler(message: types.Message, state: FSMContext):
     await state.finish()
 
 
-@dp.message_handler(text=_("✍️ Sozlamalar"))
+@dp.message_handler(text=_("⚙️ Sozlamalar"))
 async def feedback_handler(message: types.Message, state: FSMContext):
     data = await state.get_data()
     language = data.get('language')
