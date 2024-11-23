@@ -1,25 +1,32 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
+from loader import _
 
 
-async def user_main_menu_keyboard():
+async def user_main_menu_keyboard(language):
     markup = ReplyKeyboardMarkup(
         keyboard=[
             [
-                KeyboardButton(text="🍴 Menyu")
+                KeyboardButton(text=_("🍴 Menyu", locale=language))
             ],
             [
-                KeyboardButton(text="🛍 Mening buyurtmalarim")
+                KeyboardButton(text=_("🛍 Mening buyurtmalarim", locale=language))
             ],
             [
-                KeyboardButton(text="✍️ Fikr bildirish"),
-                KeyboardButton(text="⚙️ Sozlamalar"),
+                KeyboardButton(text=_("✍️ Fikr bildirish", locale=language)),
+                KeyboardButton(text=_("⚙️ Sozlamalar", locale=language)),
             ]
         ], resize_keyboard=True
     )
 
     return markup
 
-async def user_main_menu_keyboard():
-    markup = ReplyKeyboardMarkup(resize_keyboard=True)
-    markup.add(KeyboardButton("Fikr bildirish"))
-    return markup
+
+languges = ReplyKeyboardMarkup(
+    keyboard=[
+        [
+            KeyboardButton(text="🇺🇿 Uzbek"),
+            KeyboardButton(text="🇺🇸 English"),
+            KeyboardButton(text="🇷🇺 Русский"),
+        ]
+    ], resize_keyboard=True
+)

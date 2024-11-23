@@ -2,7 +2,7 @@ from typing import Union
 
 from aiogram import types
 
-from loader import logger
+from logging_settings import logger
 from main.constants import UserStatus
 from main.database import database
 from main.models import users

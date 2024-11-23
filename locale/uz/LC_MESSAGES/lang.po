@@ -1,0 +1,64 @@
+# Uzbek translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-11-24 03:09+0500\n"
+"PO-Revision-Date: 2024-11-24 02:33+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uz\n"
+"Language-Team: uz <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: handlers/users/start.py:27
+msgid "Evos botiga xush kelibsiz 😊"
+msgstr ""
+
+#: handlers/users/start.py:45
+msgid "Sorry, you have to enter your full name"
+msgstr ""
+
+#: handlers/users/start.py:56
+msgid "Iltimos, quyidagi tugma orqali telefon raqamingizni kiriting 👇"
+msgstr ""
+
+#: handlers/users/start.py:69
+msgid "Siz roʻyxatdan oʻtdingiz ✅"
+msgstr ""
+
+#: handlers/users/start.py:72
+msgid "Kechirasiz, keyinroq qayta urinib ko'ring 😔"
+msgstr ""
+
+#: handlers/users/start.py:77 keyboards/default/user.py:15
+msgid "✍️ Fikr bildirish"
+msgstr ""
+
+#: handlers/users/start.py:82
+msgid "Fikringizni yozing va menga yuboring 👇"
+msgstr ""
+
+#: handlers/users/start.py:97
+msgid "Fikringiz uchun rahmat! ✅"
+msgstr ""
+
+#: keyboards/default/user.py:9
+msgid "🍴 Menyu"
+msgstr ""
+
+#: keyboards/default/user.py:12
+msgid "🛍 Mening buyurtmalarim"
+msgstr ""
+
+#: keyboards/default/user.py:16
+msgid "⚙️ Sozlamalar"
+msgstr ""
+
