@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-24 03:09+0500\n"
+"POT-Creation-Date: 2024-11-25 19:12+0500\n"
 "PO-Revision-Date: 2024-11-24 02:33+0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -23,8 +23,8 @@ msgid "Evos botiga xush kelibsiz 😊"
 msgstr "Welcome to the Evos bot 😊"
 
 #: handlers/users/start.py:45
-msgid "Sorry, you have to enter your full name"
-msgstr ""
+msgid "Kechirasiz, siz to'liq ismingizni kiritishingiz kerak 🙂"
+msgstr "Sorry, you need to enter your full name 🙂"
 
 #: handlers/users/start.py:56
 msgid "Iltimos, quyidagi tugma orqali telefon raqamingizni kiriting 👇"
@@ -38,17 +38,25 @@ msgstr "You have successfully registered ✅"
 msgid "Kechirasiz, keyinroq qayta urinib ko'ring 😔"
 msgstr "Sorry, please try again later 😔"
 
-#: handlers/users/start.py:77 keyboards/default/user.py:15
+#: handlers/users/start.py:77 keyboards/default/user.py:16
+msgid "⚙️ Sozlamalar"
+msgstr "⚙️ Settings"
+
+#: handlers/users/start.py:87 keyboards/default/user.py:15
 msgid "✍️ Fikr bildirish"
 msgstr "✍️ Share your feedback"
 
-#: handlers/users/start.py:82
+#: handlers/users/start.py:92
 msgid "Fikringizni yozing va menga yuboring 👇"
 msgstr "Write your thoughts and send them to me 👇"
 
-#: handlers/users/start.py:97
+#: handlers/users/start.py:107
 msgid "Fikringiz uchun rahmat! ✅"
 msgstr "Thank you for your feedback! ✅"
+
+#: keyboards/common.py:9
+msgid "Share phone number ☎️"
+msgstr "Share phone number ☎️"
 
 #: keyboards/default/user.py:9
 msgid "🍴 Menyu"
@@ -57,8 +65,4 @@ msgstr "🍴 Menu"
 #: keyboards/default/user.py:12
 msgid "🛍 Mening buyurtmalarim"
 msgstr "🛍 My Orders"
-
-#: keyboards/default/user.py:16
-msgid "⚙️ Sozlamalar"
-msgstr "⚙️ Settings"
 

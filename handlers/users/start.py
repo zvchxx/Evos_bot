@@ -42,7 +42,7 @@ async def language_handler(message: types.Message, state: FSMContext):
     else:
         language = "en"
     await state.update_data(language=language)
-    text = _("Sorry, you have to enter your full name", locale=language)
+    text = _("Kechirasiz, siz to'liq ismingizni kiritishingiz kerak 🙂", locale=language)
     await message.answer(text=text, reply_markup=ReplyKeyboardRemove())
     await RegisterState.full_name.set()
 

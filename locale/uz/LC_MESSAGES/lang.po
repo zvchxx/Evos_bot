@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-24 03:09+0500\n"
+"POT-Creation-Date: 2024-11-25 19:12+0500\n"
 "PO-Revision-Date: 2024-11-24 02:33+0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: uz\n"
@@ -23,7 +23,7 @@ msgid "Evos botiga xush kelibsiz 😊"
 msgstr ""
 
 #: handlers/users/start.py:45
-msgid "Sorry, you have to enter your full name"
+msgid "Kechirasiz, siz to'liq ismingizni kiritishingiz kerak 🙂"
 msgstr ""
 
 #: handlers/users/start.py:56
@@ -36,29 +36,33 @@ msgstr ""
 
 #: handlers/users/start.py:72
 msgid "Kechirasiz, keyinroq qayta urinib ko'ring 😔"
-msgstr ""
+msgstr "Kechirasiz, keyinroq qayta urinib ko'ring 😔"
 
-#: handlers/users/start.py:77 keyboards/default/user.py:15
+#: handlers/users/start.py:77 keyboards/default/user.py:16
+msgid "⚙️ Sozlamalar"
+msgstr "⚙️ Sozlamalar"
+
+#: handlers/users/start.py:87 keyboards/default/user.py:15
 msgid "✍️ Fikr bildirish"
-msgstr ""
+msgstr "✍️ Fikr bildirish"
 
-#: handlers/users/start.py:82
+#: handlers/users/start.py:92
 msgid "Fikringizni yozing va menga yuboring 👇"
-msgstr ""
+msgstr "Fikringizni yozing va menga yuboring 👇"
 
-#: handlers/users/start.py:97
+#: handlers/users/start.py:107
 msgid "Fikringiz uchun rahmat! ✅"
-msgstr ""
+msgstr "Fikringiz uchun rahmat! ✅"
+
+#: keyboards/common.py:9
+msgid "Share phone number ☎️"
+msgstr "Telafon raqam ulashish ☎️"
 
 #: keyboards/default/user.py:9
 msgid "🍴 Menyu"
-msgstr ""
+msgstr "🍴 Menyu"
 
 #: keyboards/default/user.py:12
 msgid "🛍 Mening buyurtmalarim"
-msgstr ""
-
-#: keyboards/default/user.py:16
-msgid "⚙️ Sozlamalar"
-msgstr ""
+msgstr "🛍 Mening buyurtmalarim"
 
